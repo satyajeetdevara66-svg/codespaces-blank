@@ -1,0 +1,26 @@
+.slider{
+    width:100%;
+    overflow:hidden;
+}
+
+.slide-track{
+    display:flex;
+    width:max-content;
+    animation: scroll 15s linear infinite;
+}
+
+.slide-track img{
+    width:250px;      
+    height:250px;
+    object-fit:cover;
+    margin-right:20px;
+}
+
+@keyframes scroll{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
