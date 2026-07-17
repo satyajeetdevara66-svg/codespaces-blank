@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table ,td th{
+            border:1px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border="1" align="center" width="60%" cellpadding="5px">
+            <tr height="50px">
+                <th colspan="4">
+                    <font size="5"> Registration Form</font>
+                </th>
+            </tr>
+            <tr>
+                <td>Student Name</td>
+                <td><input type="text" placeholder="First Name" required></td>
+                <td><input type="text" placeholder="Middle Name" required></td>
+                <td><input type="text" placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <td>Father's Name</td>
+                <td><input type="text" placeholder="Enter Your Father's Name" required></td>
+                <td>Mother's Name</td>
+                <td><input type="text" placeholder="Enter Your Mother's Name" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+                <td>Gender</td>
+                <td>Male<input type="radio">Female<input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>Gen<input type="radio"> OBC<input type="radio"> SC/ST<input type="radio"></td>
+                <td>Handicapped</td>
+                <td>Yes<input type="radio"> No<input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Ex-Serviceman</td>
+                <td>Yes<input type="radio"> No<input type="radio"></td>
+                <td>EWS</td>
+                <td>Yes<input type="radio"> No<input type="radio"></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type="text"></td>
+                <td>Mobile No.</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>
+                    <select>
+							<option>Select any One</option>
+							<option>Uttar Pradesh</option>
+							<option>Madhya Pradesh</option>
+						</select>
+                </td>
+                <td>City</td>
+                <td>
+                    <select>
+                        <option>Select any One</option>
+                        <option>Prayagraj</option>
+                        <option>Kanpur</option>
+                        <option>Bhopal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file"></td>
+                <td>Upload Signature</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align:center;" colspan="3"><input type="submit"></td>
+            </tr>
+
+
+        </table>
+    </form>
+</body>
+</html>
